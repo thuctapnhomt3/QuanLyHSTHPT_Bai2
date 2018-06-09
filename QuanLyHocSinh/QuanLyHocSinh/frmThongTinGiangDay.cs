@@ -105,11 +105,11 @@ namespace QuanLyHocSinh
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-            //type = "Xoa";
-            //EnabledData(false);
-            //EnableMethod(false);
-            //btOk.Visible = true;
-            //btCancel.Visible = true;
+            type = "Xoa";
+            EnabledData(false);
+            EnableMethod(false);
+            btOk.Visible = true;
+            btCancel.Visible = true;
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -164,24 +164,24 @@ namespace QuanLyHocSinh
                 else
                     MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
             }
-            //else if (type == "Xoa")
-            //{
-            //    if (txtThu.Text != "" && txtTiet.Text != "")
-            //    {
-            //        DialogResult dr = MessageBox.Show("Bạn có muốn xóa khồng?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            //        if (dr == DialogResult.OK)
-            //        {
-            //            dal_ttgd.Xoa(txtMaGV.Text,txtMaLH.Text, txtMaMH.Text);
-            //            EnableMethod(true);
-            //            ShowData();
-            //        }
-            //        else
-            //        {
-            //            EnabledData(false);
-            //            EnableMethod(true);
-            //        }
-            //    }
-            //}
+            else if (type == "Xoa")
+            {
+                if (txtThu.Text != "" && txtTiet.Text != "")
+                {
+                    DialogResult dr = MessageBox.Show("Bạn có muốn xóa khồng?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                    if (dr == DialogResult.OK)
+                    {
+                        dal_ttgd.Xoa(txtMaGV.Text, txtMaLH.Text, txtMaMH.Text);
+                        EnableMethod(true);
+                        ShowData();
+                    }
+                    else
+                    {
+                        EnabledData(false);
+                        EnableMethod(true);
+                    }
+                }
+            }
         }
 
         private void dtgvThongTinGD_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -236,22 +236,22 @@ namespace QuanLyHocSinh
 
         private void btTiemKiem_Click(object sender, EventArgs e)
         {
-            //if (txtTimKiem.Text != "")
-            //{
-            //    btHienThi.Enabled = true;
-            //    if (dal_ttgd.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
-            //    {
-            //        dtgvThongTinGD.DataSource = dal_ttgd.GetDataTimKiem(txtTimKiem.Text.Trim());
-            //        MessageBox.Show("Tìm thành công");
-            //    }
-            //    else
-            //    {
-            //        Exception ex = dal_ttgd.GetEx();
-            //        MessageBox.Show(ex.Message);
-            //    }
-            //}
-            //else
-            //    MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (dal_ttgd.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    dtgvThongTinGD.DataSource = dal_ttgd.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = dal_ttgd.GetEx();
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
 
         private void cbTenLH_SelectedIndexChanged(object sender, EventArgs e)
