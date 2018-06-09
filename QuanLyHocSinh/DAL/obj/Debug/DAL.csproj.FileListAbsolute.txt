@@ -1,0 +1,14 @@
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,10 @@
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb
