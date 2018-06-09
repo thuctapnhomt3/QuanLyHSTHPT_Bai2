@@ -67,3 +67,28 @@ C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLy
 C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
 C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
 C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.Cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojResolveAssemblyReference.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CoreCompileInputs.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CopyComplete
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb

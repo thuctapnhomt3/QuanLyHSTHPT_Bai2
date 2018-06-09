@@ -19,3 +19,12 @@ C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bi
 C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
 C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
 C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
