@@ -92,3 +92,6 @@ D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_Qu
 D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CopyComplete
 D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
 D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+D:\2018\TTN\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+D:\2018\TTN\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\2018\TTN\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
