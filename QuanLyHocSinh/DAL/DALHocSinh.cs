@@ -17,7 +17,7 @@ namespace DAL
         }
         //public string GetTenLH(string malh)
         //{
-        //    SqlCommand cmd = new SqlCommand("select tenlh from lophoc where malh = '"+malh+"'",GetCon());
+        //    SqlCommand cmd = new SqlCommand("select tenlh from lophoc where malh = '" + malh + "'", GetCon());
 
         //    // 2. Call ExecuteNonQuery to send command
         //    string tenlh = (string)cmd.ExecuteScalar();
@@ -33,44 +33,44 @@ namespace DAL
         }
         public bool Them(HocSinh hs)
         {
-            //try
-            //{
-            //    string query = @"INSERT INTO dbo.HocSinh
-            //        ( MaHS ,
-            //          Ten ,
-            //          DiaChi ,
-            //          GioiTinh ,
-            //          NgaySinh ,
-            //          TenNguoiThan ,
-            //          MaLH
-            //        )
-            //VALUES  ( '"+hs.MaHS+"' ,N'"+hs.Ten+"' ,N'"+hs.DiaChi+"' ,N'"+hs.GioiTinh+"' ,'"+hs.NgaySinh+"' ,N'"+hs.TenNguoiThan+"' ,'"+hs.MaLH+"')";
-            //    OpenConection();
-            //    ExecuteQueries(query);
-            //    CloseConnection();
+            try
+            {
+                string query = @"INSERT INTO dbo.HocSinh
+                    ( MaHS ,
+                      Ten ,
+                      DiaChi ,
+                      GioiTinh ,
+                      NgaySinh ,
+                      TenNguoiThan ,
+                      MaLH
+                    )
+            VALUES  ( '" + hs.MaHS + "' ,N'" + hs.Ten + "' ,N'" + hs.DiaChi + "' ,N'" + hs.GioiTinh + "' ,'" + hs.NgaySinh + "' ,N'" + hs.TenNguoiThan + "' ,'" + hs.MaLH + "')";
+                OpenConection();
+                ExecuteQueries(query);
+                CloseConnection();
                 return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
-            //    return false;
-            //}
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
+                return false;
+            }
         }
         public bool Sua(HocSinh hs)
         {
-            //try
-            //{
-            //    string query = @" UPDATE dbo.HocSinh SET Ten = N'" + hs.Ten + "' ,diachi = N'" + hs.DiaChi + "' , gioitinh = N'" + hs.GioiTinh + "' ,ngaysinh = '" + hs.NgaySinh + "' ,tennguoithan = N'" + hs.TenNguoiThan + "' ,malh = '" + hs.MaLH + "' where mahs ='"+hs.MaHS+"'";
-            //    OpenConection();
-            //    ExecuteQueries(query);
-            //    CloseConnection();
-            //    return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+            try
+            {
+                string query = @" UPDATE dbo.HocSinh SET Ten = N'" + hs.Ten + "' ,diachi = N'" + hs.DiaChi + "' , gioitinh = N'" + hs.GioiTinh + "' ,ngaysinh = '" + hs.NgaySinh + "' ,tennguoithan = N'" + hs.TenNguoiThan + "' ,malh = '" + hs.MaLH + "' where mahs ='" + hs.MaHS + "'";
+                OpenConection();
+                ExecuteQueries(query);
+                CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return false;
-            //}
+            }
         }
         public bool Xoa(String ma)
         {

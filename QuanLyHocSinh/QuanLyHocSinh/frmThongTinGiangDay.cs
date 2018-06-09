@@ -91,16 +91,16 @@ namespace QuanLyHocSinh
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            //type = "Them";
-            //EnabledData(true);
-            //EnableMethod(false);
+            type = "Them";
+            EnabledData(true);
+            EnableMethod(false);
         }
 
         private void btSua_Click(object sender, EventArgs e)
         {
-            //type = "Sua";
-            //EnabledData(true);
-            //EnableMethod(false);
+            type = "Sua";
+            EnabledData(true);
+            EnableMethod(false);
         }
 
         private void btXoa_Click(object sender, EventArgs e)
@@ -121,49 +121,49 @@ namespace QuanLyHocSinh
         string maGV, maLH, maMH;
         private void btOk_Click(object sender, EventArgs e)
         {
-            //if (type == "Them")
-            //{
-            //    if (txtThu.Text != "" && txtTiet.Text != "" )
-            //    {
-            //        ThongTinGiangDay ttgd = new ThongTinGiangDay(cbTenGV.SelectedValue.ToString(), cbTenLH.SelectedValue.ToString(), txtThu.Text.Trim(), txtTiet.Text.Trim(),cbTenMH.SelectedValue.ToString());
-            //        if (dal_ttgd.Them(ttgd) == true)
-            //        {
-            //            FormatData();
-            //            ShowData();
-            //            EnableMethod(true);
-            //            MessageBox.Show("Thêm thành công");
-            //        }
-            //        else
-            //        {
-            //            Exception ex = dal_ttgd.GetEx();
-            //            MessageBox.Show(ex.Message);
-            //        }
-            //    }
-            //    else
-            //        MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+            if (type == "Them")
+            {
+                if (txtThu.Text != "" && txtTiet.Text != "")
+                {
+                    ThongTinGiangDay ttgd = new ThongTinGiangDay(cbTenGV.SelectedValue.ToString(), cbTenLH.SelectedValue.ToString(), txtThu.Text.Trim(), txtTiet.Text.Trim(), cbTenMH.SelectedValue.ToString());
+                    if (dal_ttgd.Them(ttgd) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        EnableMethod(true);
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = dal_ttgd.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
 
-            //}
-            //else if (type == "Sua")
-            //{
-            //    if (txtThu.Text != "" && txtTiet.Text != "")
-            //    {
-            //        ThongTinGiangDay ttgd = new ThongTinGiangDay(cbTenGV.SelectedValue.ToString(), cbTenLH.SelectedValue.ToString(), txtThu.Text.Trim(), txtTiet.Text.Trim(), cbTenMH.SelectedValue.ToString());
-            //        if (dal_ttgd.Sua(ttgd, maGV,maLH,maMH) == true)
-            //        {
-            //            FormatData();
-            //            ShowData();
-            //            MessageBox.Show("Sửa thành công");
-            //            EnableMethod(true);
-            //        }
-            //        else
-            //        {
-            //            Exception ex = dal_ttgd.GetEx();
-            //            MessageBox.Show(ex.Message);
-            //        }
-            //    }
-            //    else
-            //        MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
-            //}
+            }
+            else if (type == "Sua")
+            {
+                if (txtThu.Text != "" && txtTiet.Text != "")
+                {
+                    ThongTinGiangDay ttgd = new ThongTinGiangDay(cbTenGV.SelectedValue.ToString(), cbTenLH.SelectedValue.ToString(), txtThu.Text.Trim(), txtTiet.Text.Trim(), cbTenMH.SelectedValue.ToString());
+                    if (dal_ttgd.Sua(ttgd, maGV, maLH, maMH) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Sửa thành công");
+                        EnableMethod(true);
+                    }
+                    else
+                    {
+                        Exception ex = dal_ttgd.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+            }
             //else if (type == "Xoa")
             //{
             //    if (txtThu.Text != "" && txtTiet.Text != "")

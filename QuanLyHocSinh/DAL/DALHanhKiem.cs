@@ -16,66 +16,66 @@ namespace DAL
         }
         public bool Them(HanhKiem hk)
         {
-            //try
-            //{
-            //    string query = @"INSERT INTO dbo.HanhKiem ( MaHK, Ten ) VALUES  ( '"+hk.MaHK+"',  N'"+hk.Ten+"')";
-            //    OpenConection();
-            //    ExecuteQueries(query);
-            //    CloseConnection();
-            //    return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+            try
+            {
+                string query = @"INSERT INTO dbo.HanhKiem ( MaHK, Ten ) VALUES  ( '" + hk.MaHK + "',  N'" + hk.Ten + "')";
+                OpenConection();
+                ExecuteQueries(query);
+                CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return false;
-            //}
+            }
         }
         public bool Sua(HanhKiem hk)
         {
-            //try
-            //{
-            //    string query = @" UPDATE dbo.HanhKiem set Ten = N'" + hk.Ten + "' where mahk = '"+hk.MaHK+"'";
-            //    OpenConection();
-            //    ExecuteQueries(query);
-            //    CloseConnection();
-            //    return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+            try
+            {
+                string query = @" UPDATE dbo.HanhKiem set Ten = N'" + hk.Ten + "' where mahk = '" + hk.MaHK + "'";
+                OpenConection();
+                ExecuteQueries(query);
+                CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return false;
-            //}
+            }
         }
         public bool Xoa(String ma)
         {
-            //try
-            //{
+            try
+            {
 
-            //    string query = @"DELETE FROM dbo.HanhKiem WHERE Mahk='" + ma + "'";
-            //    OpenConection();
-            //    ExecuteQueries(@"delete from HanhKiemHS WHERE Mahk='" + ma + "'");
-            //    ExecuteQueries(query);
-            //    CloseConnection();
-            //    return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+                string query = @"DELETE FROM dbo.HanhKiem WHERE Mahk='" + ma + "'";
+                OpenConection();
+                ExecuteQueries(@"delete from HanhKiemHS WHERE Mahk='" + ma + "'");
+                ExecuteQueries(query);
+                CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return false;
-            //}
+            }
         }
         public DataTable GetDataTimKiem(string chuoi)
         {
-            //try
-            //{
-            //    string query = @"select * from hanhkiem where (ten like N'%" + chuoi + "%' or mahk like '%" + chuoi + "%')";
-            //    return (DataTable)ShowDataInGridView(query);
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+            try
+            {
+                string query = @"select * from hanhkiem where (ten like N'%" + chuoi + "%' or mahk like '%" + chuoi + "%')";
+                return (DataTable)ShowDataInGridView(query);
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return null;
-            //}
+            }
         }
     }
 }

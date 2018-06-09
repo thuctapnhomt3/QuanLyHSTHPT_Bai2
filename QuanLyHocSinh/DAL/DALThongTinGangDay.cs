@@ -28,37 +28,37 @@ namespace DAL
         }
         public bool Them(ThongTinGiangDay ttgd)
         {
-            //try
-            //{
-            //    string query = @"INSERT INTO dbo.ThongTinGiangDay
-            //            ( MaGV, MaLH, Thu, Tiet, MaMH )
-            //    VALUES  ( '"+ttgd.MaGV+"', '"+ttgd.MaLH+"',N'"+ttgd.Thu+"',N'"+ttgd.Tiet+"','"+ttgd.MaMH+"')";
-            //    OpenConection();
-            //    ExecuteQueries(query);
-            //    CloseConnection();
-            //    return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+            try
+            {
+                string query = @"INSERT INTO dbo.ThongTinGiangDay
+                        ( MaGV, MaLH, Thu, Tiet, MaMH )
+                VALUES  ( '" + ttgd.MaGV + "', '" + ttgd.MaLH + "',N'" + ttgd.Thu + "',N'" + ttgd.Tiet + "','" + ttgd.MaMH + "')";
+                OpenConection();
+                ExecuteQueries(query);
+                CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return false;
-            //}
+            }
         }
         public bool Sua(ThongTinGiangDay ttgd, string magv, string malh, string mamh)
         {
-            //try
-            //{
-            //    string query = @" UPDATE dbo.Thongtingiangday SET magv ='" + ttgd.MaGV + "',MaLH = '" + ttgd.MaLH + "' , Thu = N'" + ttgd.Thu + "' ,Tiet = N'" + ttgd.Tiet + "',MaMH = '"+ttgd.MaMH+ "' where magv ='" + magv + "' and malh = '"+malh+"' and mamh = '"+mamh+"'";
-            //    OpenConection();
-            //    ExecuteQueries(query);
-            //    CloseConnection();
-            //    return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+            try
+            {
+                string query = @" UPDATE dbo.Thongtingiangday SET magv ='" + ttgd.MaGV + "',MaLH = '" + ttgd.MaLH + "' , Thu = N'" + ttgd.Thu + "' ,Tiet = N'" + ttgd.Tiet + "',MaMH = '" + ttgd.MaMH + "' where magv ='" + magv + "' and malh = '" + malh + "' and mamh = '" + mamh + "'";
+                OpenConection();
+                ExecuteQueries(query);
+                CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return false;
-            //}
+            }
         }
         public bool Xoa(string magv, string malh, string mamh)
         {
