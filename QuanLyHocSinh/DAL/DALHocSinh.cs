@@ -74,35 +74,35 @@ namespace DAL
         }
         public bool Xoa(String ma)
         {
-            //try
-            //{
+            try
+            {
 
-            //    string query = @"DELETE FROM dbo.hocsinh WHERE Mahs='" + ma + "'";
-            //    OpenConection();
-            //    ExecuteQueries(@"DELETE FROM dbo.bangdiem WHERE Mahs  = '" + ma + "'");
-            //    ExecuteQueries(@"DELETE FROM dbo.hanhkiemhs WHERE Mahs  = '" + ma + "'");
-            //    ExecuteQueries(query);
-            //    CloseConnection();
-            //    return true;
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+                string query = @"DELETE FROM dbo.hocsinh WHERE Mahs='" + ma + "'";
+                OpenConection();
+                ExecuteQueries(@"DELETE FROM dbo.bangdiem WHERE Mahs  = '" + ma + "'");
+                ExecuteQueries(@"DELETE FROM dbo.hanhkiemhs WHERE Mahs  = '" + ma + "'");
+                ExecuteQueries(query);
+                CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return false;
-            //}
-        }
+                }
+            }
         public DataTable GetDataTimKiem(string chuoi)
         {
-            //try
-            //{
-            //    string query = @"select * from hocsinh where (diachi like N'%" + chuoi + "%' or ten like N'%" + chuoi + "%' or gioitinh like N'%" + chuoi + "%' or tennguoithan like N'%" + chuoi + "%' or mahs like '%" + chuoi + "%' or malh like '%" + chuoi + "%' )";
-            //    return (DataTable)ShowDataInGridView(query);
-            //}
-            //catch (Exception ex)
-            //{
-            //    SetEx(ex);
+            try
+            {
+                string query = @"select * from hocsinh where (diachi like N'%" + chuoi + "%' or ten like N'%" + chuoi + "%' or gioitinh like N'%" + chuoi + "%' or tennguoithan like N'%" + chuoi + "%' or mahs like '%" + chuoi + "%' or malh like '%" + chuoi + "%' )";
+                return (DataTable)ShowDataInGridView(query);
+            }
+            catch (Exception ex)
+            {
+                SetEx(ex);
                 return null;
-            //}
+            }
         }
     }
 }

@@ -200,25 +200,25 @@ namespace QuanLyHocSinh
                 else
                     MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
             }
-            //else if (type == "Xoa")
-            //{
-            //    if (txtMaHS.Text != "" && txtTen.Text != "" && txtTenNguoiThan.Text != "" && txtDiaChi.Text != "")
-            //    {
-            //        DialogResult dr = MessageBox.Show("Bạn có muốn xóa khồng?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            //        if (dr == DialogResult.OK)
-            //        {
-            //            dal_hs.Xoa(txtMaHS.Text);
-            //            EnableMethod(true);
-            //            ShowData();
-            //            FormatData();
-            //        }
-            //        else
-            //        {
-            //            EnabledData(false);
-            //            EnableMethod(true);
-            //        }
-            //    }
-            //}
+            else if (type == "Xoa")
+            {
+                if (txtMaHS.Text != "" && txtTen.Text != "" && txtTenNguoiThan.Text != "" && txtDiaChi.Text != "")
+                {
+                    DialogResult dr = MessageBox.Show("Bạn có muốn xóa khồng?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                    if (dr == DialogResult.OK)
+                    {
+                        dal_hs.Xoa(txtMaHS.Text);
+                        EnableMethod(true);
+                        ShowData();
+                        FormatData();
+                    }
+                    else
+                    {
+                        EnabledData(false);
+                        EnableMethod(true);
+                    }
+                }
+            }
         }
 
         private void cbTenLH_SelectedIndexChanged(object sender, EventArgs e)
@@ -234,11 +234,11 @@ namespace QuanLyHocSinh
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-            //type = "Xoa";
-            //EnabledData(false);
-            //EnableMethod(false);
-            //btOk.Visible = true;
-            //btCancel.Visible = true;
+            type = "Xoa";
+            EnabledData(false);
+            EnableMethod(false);
+            btOk.Visible = true;
+            btCancel.Visible = true;
         }
 
         private void btHienThi_Click(object sender, EventArgs e)
@@ -250,22 +250,22 @@ namespace QuanLyHocSinh
 
         private void btTimKiem_Click(object sender, EventArgs e)
         {
-            //if (txtTimKiem.Text != "")
-            //{
-            //    btHienThi.Enabled = true;
-            //    if (dal_hs.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
-            //    {
-            //        dtgvHocSinh.DataSource = dal_hs.GetDataTimKiem(txtTimKiem.Text.Trim());
-            //        MessageBox.Show("Tìm thành công");
-            //    }
-            //    else
-            //    {
-            //        Exception ex = dal_hs.GetEx();
-            //        MessageBox.Show(ex.Message);
-            //    }
-            //}
-            //else
-            //    MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (dal_hs.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    dtgvHocSinh.DataSource = dal_hs.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = dal_hs.GetEx();
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
     }
 }
